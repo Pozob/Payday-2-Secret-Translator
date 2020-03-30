@@ -69,6 +69,18 @@ li:hover {
     box-shadow: 5px 3px 8px var(--dark);
 }
 
+.character-select.flipped .character svg {
+    transform: scaleX(-1);
+}
+
 .found-achievements {
     margin: 12px;
+}
+
+.clear-btn {
+    margin-right: 12px;
+}
+
+.reverse-btn {
+    margin-left: 12px;
 }

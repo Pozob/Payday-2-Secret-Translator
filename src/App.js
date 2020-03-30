@@ -16,7 +16,8 @@ class App extends Component {
         achievements,
         toDo: [],
         search: '',
-        reverse: false
+        reverse: false,
+        flipSymbols: false
     };
 
     render() {
@@ -31,18 +32,24 @@ class App extends Component {
                             handleInput={this.handleInputChange}
                         />
                     </div>
-
                     <div className='control-buttons'>
-                        <ClearButton handleClick={this.handleClearClick} />
-                        {this.state.reverse && (
-                            <span>
-                                <span className='badge badge-warning'>REVERSED!</span>
-                            </span>
-                        )}
-                        <ReverseButton handleClick={this.handleReverseClick} />
+                        <div className='search'>
+                            <ClearButton handleClick={this.handleClearClick} />
+                            <button className='btn btn-primary' onClick={this.handleFlipClick}>
+                                Flip Symbols
+                            </button>
+                        </div>
+                        <div className='reverse'>
+                            {this.state.reverse && (
+                                <span>
+                                    <span className='badge badge-warning'>REVERSED!</span>
+                                </span>
+                            )}
+                            <ReverseButton handleClick={this.handleReverseClick} />
+                        </div>
                     </div>
                 </div>
-                <div className='character-select'>
+                <div className={this.getCharacterClassName()}>
                     <Characters handleOnClick={this.handleCharacterClick}></Characters>
                 </div>
                 {this.state.search && (
@@ -69,6 +76,10 @@ class App extends Component {
             </div>
         );
     }
+
+    handleFlipClick = () => {
+        this.setState({ flipSymbols: !this.state.flipSymbols });
+    };
 
     handleCharacterClick = character => {
         console.log(character);
@@ -136,6 +147,13 @@ class App extends Component {
         element.click();
 
         document.body.removeChild(element);
+    };
+
+    getCharacterClassName = () => {
+        let className = 'character-select';
+        if (this.state.flipSymbols) className += ' flipped';
+        console.log(className);
+        return className;
     };
 }
 

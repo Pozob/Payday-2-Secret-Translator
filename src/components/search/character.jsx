@@ -7,7 +7,7 @@ const Character = ({ char, handleOnClick }) => {
             <svg alt={char}>
                 <use xlinkHref={`icons/alphabet/index.svg#${char}`}></use>
             </svg>
-            <span className>{char}</span>
+            <span>{char}</span>
         </span>
     );
 };
