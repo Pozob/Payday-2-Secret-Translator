@@ -52,9 +52,13 @@ class App extends Component {
                 <div className={this.getCharacterClassName()}>
                     <Characters handleOnClick={this.handleCharacterClick}></Characters>
                 </div>
-                {this.state.search && (
+                <div className='list-header'>
                     <span className='found-achievements'>{`Found ${achievements.length} Achievements`}</span>
-                )}
+                    <button className='btn btn-success' onClick={this.generateExport}>
+                        Download ToDo List
+                    </button>
+                    <span className='found-achievements'>{`${this.state.toDo.length} Achievements selected`}</span>
+                </div>
                 <div className='output-wrapper row'>
                     <div className='col-6 achievement-list'>
                         <h5>Click on an achievement to add it to the ToDo List</h5>
@@ -63,15 +67,12 @@ class App extends Component {
                             handleOnClick={this.handleListAchievementClick}
                         />
                     </div>
-                    {!!this.state.toDo.length && (
-                        <div className='col-6 todo-list'>
-                            <button className='btn btn-success' onClick={this.generateExport}>
-                                Download ToDo List
-                            </button>
-                            <h5>Click on an achievement to remove it from the ToDo List</h5>
+                    <div className='col-6 todo-list'>
+                        <h5>Click on an achievement to remove it from the ToDo List</h5>
+                        {!!this.state.toDo.length && (
                             <List listData={this.state.toDo} handleOnClick={this.handleToDoClick} />
-                        </div>
-                    )}
+                        )}
+                    </div>
                 </div>
             </div>
         );
@@ -95,7 +96,7 @@ class App extends Component {
     handleListAchievementClick = newTodo => {
         const inTodo = this.state.toDo.some(achievement => achievement === newTodo);
         if (inTodo) return;
-        const toDo = [...this.state.toDo, newTodo];
+        const toDo = [newTodo, ...this.state.toDo];
         this.setState({ toDo });
     };
 
