@@ -1,11 +1,12 @@
 import React from 'react';
-import '../../../alphabet.svg'
+import alphabet from '../../../alphabet.svg'
 
 const Character = ({ char, handleOnClick }) => {
+    // console.log(alphabet);
     return (
         <span className='character' onClick={() => handleOnClick(char)}>
             <svg alt={char}>
-                <use xlinkHref={`/alphabet.svg#${char}`}></use>
+                <use xlinkHref={`${alphabet}#${char}`}></use>
             </svg>
             <span>{char}</span>
         </span>
