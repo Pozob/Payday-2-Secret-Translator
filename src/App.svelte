@@ -27,11 +27,9 @@
 <div class="App container">
     <h2>PayDay 2 Secret Translator</h2>
     <div class="input-wrapper">
-        <div class="">
-            <SearchBar />
-        </div>
+        <SearchBar />
         <div class="control-buttons">
-            <div class="search">
+            <div class="buttons">
                 <ClearButton />
                 <FlipSymbolsButton />
                 <ReverseButton />
@@ -40,9 +38,9 @@
     </div>
     <Characters />
     <div class="list-header">
-        <span class="found-achievements">Found {$filteredAchievements.length} Achievements</span>
+        <span class="found-achievements">Found <b>{$filteredAchievements.length}</b> Achievements</span>
         <button class="btn btn-success" on:click={generateExport}> Download ToDo List </button>
-        <span class="found-achievements">{$selectedAchievements.length} Achievements selected</span>
+        <span class="found-achievements">Currently <b>{$selectedAchievements.length}</b> Achievements selected</span>
     </div>
     <div class="output-wrapper row">
         <div class="achievement-list">
@@ -65,5 +63,9 @@
     .achievement-list,
     .todo-list {
         width: 50%;
+    }
+
+    .buttons {
+        margin: 0.5rem;
     }
 </style>

@@ -8,6 +8,7 @@
     {#each achievementsToRender as achievement (achievement.name)}
         <button class="achievement" on:click={() => toggleSelectAchievement(achievement)}>
             <div class="achievement-name">{achievement.name}</div>
+            <hr />
             <div class="achievement-description">{achievement.text}</div>
         </button>
     {/each}
@@ -32,5 +33,9 @@
     .achievement-name {
         font-size: 1.5em;
         font-weight: bold;
+    }
+    hr {
+        width: 100%;
+        border: 1px solid var(--primary);
     }
 </style>

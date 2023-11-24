@@ -17,7 +17,7 @@
 <style>
     .character {
         overflow: hidden;
-        color: white;
+        color: var(--primary);
         border-radius: 0.25rem;
         margin: 0.25rem;
         padding: 0.5rem;
@@ -32,8 +32,12 @@
 
     .character svg {
         font-size: 0.5em;
-        --primary-symbol-color: #9f9f9f;
-        stroke: var(--primary-symbol-color);
-        fill: var(--primary-symbol-color);
+        stroke: var(--primary);
+        fill: var(--primary);
+    }
+
+    span {
+        font-size: 2em;
+        font-weight: bold;
     }
 </style>
