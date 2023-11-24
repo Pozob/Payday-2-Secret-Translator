@@ -4,5 +4,5 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [ svelte() ],
-  base: proxess.env.VITE_BASEDIR || '/'
+  base: process.env.VITE_BASEDIR || '/'
 })
