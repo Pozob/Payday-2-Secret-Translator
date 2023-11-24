@@ -16,6 +16,7 @@
 
 <style>
     .character {
+        overflow: hidden;
         color: white;
         border-radius: 0.25rem;
         margin: 0.25rem;
