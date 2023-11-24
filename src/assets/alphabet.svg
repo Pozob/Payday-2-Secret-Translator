@@ -9,7 +9,7 @@
         stroke-miterlimit="1.5"
         xmlns="http://www.w3.org/2000/svg"
     >
-        <circle cx="54.693" cy="80.029" r="52.136" fill="none" stroke="#000" stroke-width="4.94" />
+        <circle cx="54.693" cy="80.029" r="52.136" fill="none" stroke-width="4.94" />
         <circle cx="54.693" cy="6.269" r="6.104" />
     </symbol>
     <symbol
@@ -25,10 +25,9 @@
         <path
             d="M79.476 90.7c-5.627 9.72-16.139 16.264-28.168 16.264-17.951 0-32.524-14.573-32.524-32.524V35.217c0-17.951 14.573-32.524 32.524-32.524 13.172 0 24.526 7.847 29.637 19.118"
             fill="none"
-            stroke="#000"
             stroke-width="4.94"
         />
-        <circle cx="49.865" cy="54.829" r="31.081" fill="none" stroke="#000" stroke-width="4.94" />
+        <circle cx="49.865" cy="54.829" r="31.081" fill="none" stroke-width="4.94" />
         <circle cx="4.966" cy="54.829" r="4.877" />
     </symbol>
     <symbol
@@ -44,7 +43,7 @@
         <path
             d="M14.296 111.827l7.502 20.337L2.565 80.029l19.233-52.136-7.502 20.337H50.78l-7.502-20.337 19.233 52.136-19.233 52.135 7.502-20.337H14.296z"
             fill="none"
-            stroke="#000"
+            
             stroke-width="4.94"
         />
         <circle cx="32.538" cy="6.269" r="6.104" />
@@ -59,7 +58,7 @@
         stroke-miterlimit="1.5"
         xmlns="http://www.w3.org/2000/svg"
     >
-        <g fill="none" stroke="#000" stroke-width="4.94">
+        <g fill="none"  stroke-width="4.94">
             <path
                 d="M2.64 54.653h38.693V2.517H2.64M80.026 2.517H41.333v52.136h38.693M2.64 106.789h38.693V54.653H2.64"
             />
@@ -76,7 +75,7 @@
         stroke-miterlimit="1.5"
         xmlns="http://www.w3.org/2000/svg"
     >
-        <g fill="none" stroke="#000" stroke-width="4.94">
+        <g fill="none"  stroke-width="4.94">
             <circle cx="54.571" cy="58.341" r="51.983" />
             <path
                 d="M119.436 28.463c-7.11 0-12.882-5.772-12.882-12.882 0-7.109 5.772-12.881 12.882-12.881"
@@ -93,7 +92,7 @@
         stroke-miterlimit="1.5"
         xmlns="http://www.w3.org/2000/svg"
     >
-        <g fill="none" stroke="#000" stroke-width="4.94">
+        <g fill="none"  stroke-width="4.94">
             <g xmlns:serif="http://www.serif.com/">
                 <path
                     d="M59.265 37.349c-9.563 0-17.328-7.765-17.328-17.328 0-9.564 7.765-17.328 17.328-17.328 9.564 0 17.328 7.764 17.328 17.328"
@@ -123,14 +122,14 @@
         <path
             d="M59.356 69.162c9.593 0 17.38-7.788 17.38-17.38 0-9.592-7.787-17.38-17.38-17.38H48.182h11.174V2.56"
             fill="none"
-            stroke="#000"
+            
             stroke-width="4.94"
         />
-        <circle cx="57.265" cy="86.542" r="17.38" fill="none" stroke="#000" stroke-width="4.94" />
+        <circle cx="57.265" cy="86.542" r="17.38" fill="none"  stroke-width="4.94" />
         <path
             d="M39.885 88.443c0 9.593-7.788 17.38-17.38 17.38-9.592 0-17.38-7.787-17.38-17.38"
             fill="none"
-            stroke="#000"
+            
             stroke-width="4.94"
         />
         <circle cx="5.125" cy="35.861" r="4.877" />
@@ -146,7 +145,7 @@
         stroke-miterlimit="1.5"
         xmlns="http://www.w3.org/2000/svg"
     >
-        <g fill="none" stroke="#000" stroke-width="4.94">
+        <g fill="none"  stroke-width="4.94">
             <path
                 d="M22.026 52.975H2.536V2.527h61.609v50.448H46.27M46.27 52.975h17.875v50.448H2.536V52.975h19.49"
             />
@@ -165,7 +164,7 @@
         <path
             d="M37.172 89.044v14.379H2.707L37.172 2.527l34.464 100.896"
             fill="none"
-            stroke="#000"
+            
             stroke-width="4.94"
         />
     </symbol>
@@ -182,11 +181,11 @@
         <path
             d="M71.76 12.321L37.2 108.463 2.64 12.321M71.76 12.321h15.311"
             fill="none"
-            stroke="#000"
+            
             stroke-width="4.94"
         />
         <circle cx="37.2" cy="7.444" r="4.877" />
-        <path fill="none" stroke="#000" stroke-width="4.94" d="M87.071 2.567h.19v105.897h-.19z" />
+        <path fill="none"  stroke-width="4.94" d="M87.071 2.567h.19v105.897h-.19z" />
     </symbol>
     <symbol
         id="K"
@@ -216,7 +215,7 @@
         stroke-miterlimit="1.5"
         xmlns="http://www.w3.org/2000/svg"
     >
-        <g fill="none" stroke="#000" stroke-width="4.94">
+        <g fill="none"  stroke-width="4.94">
             <path
                 d="M64.203 108.463V86.265c0-16.971-13.779-30.75-30.751-30.75-16.971 0-30.75 13.779-30.75 30.75v22.198M64.203 2.567v22.198c0 16.971-13.779 30.75-30.751 30.75-16.971 0-30.75-13.779-30.75-30.75V2.567"
             />
@@ -232,7 +231,7 @@
         stroke-miterlimit="1.5"
         xmlns="http://www.w3.org/2000/svg"
     >
-        <g fill="none" stroke="#000" stroke-width="4.94">
+        <g fill="none"  stroke-width="4.94">
             <path d="M21.352 23.476h.951v91.271h-.951z" />
             <path d="M2.594 39.401H42.01v.238H2.594zM2.594 100.486H42.01v.238H2.594z" />
             <circle cx="21.827" cy="8.473" r="5.971" />
@@ -248,7 +247,7 @@
         stroke-miterlimit="1.5"
         xmlns="http://www.w3.org/2000/svg"
     >
-        <g fill="none" stroke="#000" stroke-width="4.94">
+        <g fill="none"  stroke-width="4.94">
             <path d="M21.417 2.675h.951v91.271h-.951z" />
             <path d="M2.66 18.6h19.708v.119H2.66zM21.893 79.684h20.183v.122H21.893z" />
         </g>
@@ -266,7 +265,7 @@
         <path
             d="M30.068 93.946L48.17 48.31l18.103 45.636M66.273 2.674L48.17 48.31 30.068 2.674M2.534 30.208L48.17 48.31 2.534 66.412"
             fill="none"
-            stroke="#000"
+            
             stroke-width="4.94"
         />
         <circle cx="71.15" cy="48.31" r="4.877" />
@@ -281,7 +280,7 @@
         stroke-miterlimit="1.5"
         xmlns="http://www.w3.org/2000/svg"
     >
-        <path d="M2.674 2.674h28.599v91.272H2.674" fill="none" stroke="#000" stroke-width="4.94" />
+        <path d="M2.674 2.674h28.599v91.272H2.674" fill="none"  stroke-width="4.94" />
     </symbol>
     <symbol
         id="Q"
@@ -296,7 +295,7 @@
         <path
             d="M4.97 104.692L50.291 53.59 4.97 2.488"
             fill="none"
-            stroke="#000"
+            
             stroke-width="4.94"
         />
         <circle cx="4.97" cy="53.59" r="4.877" />
@@ -314,10 +313,10 @@
         <path
             d="M2.615 2.488L11.324 53.5l-8.709 51.012M68.689 83.681H42.841c-11.596 0-21.011 9.415-21.011 21.011M68.665 23.499H42.817c-11.596 0-21.011-9.415-21.011-21.011"
             fill="none"
-            stroke="#000"
+            
             stroke-width="4.94"
         />
-        <path fill="none" stroke="#000" stroke-width="4.94" d="M68.665 2.488h.024v102.204h-.024z" />
+        <path fill="none"  stroke-width="4.94" d="M68.665 2.488h.024v102.204h-.024z" />
         <circle cx="34.929" cy="53.5" r="4.877" />
     </symbol>
     <symbol
@@ -330,7 +329,7 @@
         stroke-miterlimit="1.5"
         xmlns="http://www.w3.org/2000/svg"
     >
-        <g fill="none" stroke="#000" stroke-width="4.94">
+        <g fill="none"  stroke-width="4.94">
             <path
                 d="M50.946 71.716c0-10.077-8.182-18.258-18.259-18.258h-11.91c-10.078 0-18.259 8.181-18.259 18.258l.297 32.708M50.946 35.199c0 10.077-8.182 18.259-18.259 18.259h-11.91c-10.078 0-18.259-8.182-18.259-18.259l.297-32.708M72.04 2.491h.024v101.933h-.024z"
             />
@@ -349,7 +348,7 @@
         <path
             d="M62.688 2.491H19.904v50.964h42.784v.005H19.904v50.964h42.784"
             fill="none"
-            stroke="#000"
+            
             stroke-width="4.94"
         />
         <circle cx="5.008" cy="53.458" r="4.877" />
@@ -367,7 +366,7 @@
         <path
             d="M17.241 28.017l14.682 25.441-14.682 25.44v25.526h-.024V78.94L2.51 53.458l14.707-25.482V2.491h.024v25.526z"
             fill="none"
-            stroke="#000"
+            
             stroke-width="4.94"
         />
     </symbol>
@@ -384,12 +383,12 @@
         <path
             d="M4.17 90.529c5.628 9.72 16.14 16.264 28.169 16.264 17.95 0 32.524-14.573 32.524-32.524V35.046c0-17.951-14.574-32.524-32.524-32.524-13.172 0-24.526 7.847-29.637 19.118"
             fill="none"
-            stroke="#000"
+            
             stroke-width="4.94"
         />
-        <circle cx="33.782" cy="54.658" r="31.081" fill="none" stroke="#000" stroke-width="4.94" />
+        <circle cx="33.782" cy="54.658" r="31.081" fill="none"  stroke-width="4.94" />
         <circle cx="78.68" cy="54.658" r="4.877" />
-        <path fill="none" stroke="#000" stroke-width="4.94" d="M2.678 2.522h.024v104.272h-.024z" />
+        <path fill="none"  stroke-width="4.94" d="M2.678 2.522h.024v104.272h-.024z" />
     </symbol>
     <symbol
         id="W"
@@ -404,13 +403,13 @@
         <path
             d="M2.578 2.522v34.76h54.964V2.522M2.578 37.282h54.964v34.76H2.578z"
             fill="none"
-            stroke="#000"
+            
             stroke-width="4.94"
         />
         <path
             d="M57.542 106.793v-34.76H2.578v34.76"
             fill="none"
-            stroke="#000"
+            
             stroke-width="4.94"
         />
         <circle cx="76.369" cy="7.399" r="4.877" />
@@ -426,7 +425,7 @@
         stroke-miterlimit="1.5"
         xmlns="http://www.w3.org/2000/svg"
     >
-        <g fill="none" stroke="#000" stroke-width="4.94">
+        <g fill="none"  stroke-width="4.94">
             <circle cx="23.381" cy="54.658" r="20.72" />
             <circle cx="64.821" cy="54.658" r="20.72" />
             <path
@@ -447,10 +446,10 @@
         <path
             d="M48.548 41.149c0-12.708-10.317-23.025-23.026-23.025-12.708 0-23.025 10.317-23.025 23.025v55.559c0 12.708 10.317 23.026 23.025 23.026 12.709 0 23.026-10.318 23.026-23.026V41.149z"
             fill="none"
-            stroke="#000"
+            
             stroke-width="4.94"
         />
-        <circle cx="25.522" cy="68.929" r="23.026" fill="none" stroke="#000" stroke-width="4.94" />
+        <circle cx="25.522" cy="68.929" r="23.026" fill="none"  stroke-width="4.94" />
         <circle cx="25.522" cy="5.037" r="4.877" />
     </symbol>
     <symbol
@@ -463,7 +462,7 @@
         stroke-miterlimit="1.5"
         xmlns="http://www.w3.org/2000/svg"
     >
-        <g fill="none" stroke="#000" stroke-width="4.94">
+        <g fill="none"  stroke-width="4.94">
             <path
                 d="M2.698 106.502c11.597 0 21.012-9.414 21.012-21.011V23.546c0-11.597-9.415-21.012-21.012-21.012M36.64 54.518H2.698M70.008 70.769c-11.313 0-20.498 9.622-20.498 20.936v14.797M49.51 2.534c-.015 4.933-.031 9.866 0 14.798.004.701.036 1.402.106 2.099 1.034 10.292 9.967 18.837 20.392 18.837"
             />
