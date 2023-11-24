@@ -12,6 +12,10 @@ concurrency:
     group: 'pages'
     cancel-in-progress: true
 
+env:
+    # Use the Envoronment Variable to set the Base Directory
+    VITE_BASEDIR: ${{ vars.VITE_BASEDIR }}
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
     build:
